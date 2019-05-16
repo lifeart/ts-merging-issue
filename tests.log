@@ -1,0 +1,56 @@
+WARNING: ts-app has added the class-properties plugin to its build, but ember-cli-babel provides these by default now! You can remove the transforms, or the addon that provided them, such as @ember-decorators/babel-transforms.
+WARNING: ts-app has added the class-properties plugin to its build, but ember-cli-babel provides these by default now! You can remove the transforms, or the addon that provided them, such as @ember-decorators/babel-transforms.
+Environment: test
+cleaning up...
+Built project successfully. Stored in "C:\Users\lifeart\Documents\repos\tmp\ts-app\tmp\class-tests_dist-UBMhIWw3.tmp".
+ok 1 Chrome 74.0 - [2 ms] - ESLint | app: app/models/meta-model.js
+ok 2 Chrome 74.0 - [0 ms] - ESLint | app: app.js
+ok 3 Chrome 74.0 - [1 ms] - ESLint | app: resolver.js
+ok 4 Chrome 74.0 - [0 ms] - ESLint | app: router.js
+ok 5 Chrome 74.0 - [0 ms] - TemplateLint: ts-app/templates/application.hbs
+ok 6 Chrome 74.0 - [0 ms] - ESLint | tests: test-helper.js
+ok 7 Chrome 74.0 - [108 ms] - Unit | Model | base model: it exists
+ok 8 Chrome 74.0 - [25 ms] - Unit | Model | meta model: it exists
+ok 9 Chrome 74.0 - [0 ms] - ember-qunit: Ember.onerror validation: Ember.onerror is functioning properly
+
+1..9
+# tests 9
+# pass  9
+# skip  0
+# fail  0
+
+# ok
+WARNING: ts-app has added the class-properties plugin to its build, but ember-cli-babel provides these by default now! You can remove the transforms, or the addon that provided them, such as @ember-decorators/babel-transforms.
+WARNING: ts-app has added the class-properties plugin to its build, but ember-cli-babel provides these by default now! You can remove the transforms, or the addon that provided them, such as @ember-decorators/babel-transforms.
+Environment: test
+cleaning up...
+Built project successfully. Stored in "C:\Users\lifeart\Documents\repos\tmp\ts-app\tmp\class-tests_dist-s6n8AZfw.tmp".
+ok 1 Chrome 74.0 - [2 ms] - ESLint | app: app/models/meta-model.js
+ok 2 Chrome 74.0 - [0 ms] - ESLint | app: app.js
+ok 3 Chrome 74.0 - [0 ms] - ESLint | app: resolver.js
+ok 4 Chrome 74.0 - [0 ms] - ESLint | app: router.js
+ok 5 Chrome 74.0 - [1 ms] - TemplateLint: ts-app/templates/application.hbs
+ok 6 Chrome 74.0 - [0 ms] - ESLint | tests: test-helper.js
+ok 7 Chrome 74.0 - [106 ms] - Unit | Model | base model: it exists
+not ok 8 Chrome 74.0 - [26 ms] - Unit | Model | meta model: it exists
+    ---
+        expected: >
+            addon-meta-model/baseModel
+        stack: >
+                at Object.<anonymous> (http://localhost:7357/assets/tests.js:67:14)
+                at runTest (http://localhost:7357/assets/test-support.js:5618:30)
+                at Test.run (http://localhost:7357/assets/test-support.js:5604:6)
+                at http://localhost:7357/assets/test-support.js:5831:12
+                at processTaskQueue (http://localhost:7357/assets/test-support.js:5197:24)
+                at advanceTaskQueue (http://localhost:7357/assets/test-support.js:5182:4)
+        negative: >
+            false
+        browser log: |
+    ...
+ok 9 Chrome 74.0 - [0 ms] - ember-qunit: Ember.onerror validation: Ember.onerror is functioning properly
+
+1..9
+# tests 9
+# pass  8
+# skip  0
+# fail  1

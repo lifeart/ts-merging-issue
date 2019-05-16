@@ -1,0 +1,67 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noEmitOnError": false,
+    "noEmit": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "baseUrl": ".",
+    "module": "es6",
+    "paths": {
+      "ts-app/tests/*": [
+        "tests/*"
+      ],
+      "ts-app/*": [
+        "app/*",
+        "lib/models/app/*",
+        "lib/side-models/app/*"
+      ],
+      "models": [
+        "lib/models/addon"
+      ],
+      "models/*": [
+        "lib/models/addon/*"
+      ],
+      "models/test-support": [
+        "lib/models/addon-test-support"
+      ],
+      "models/test-support/*": [
+        "lib/models/addon-test-support/*"
+      ],
+      "*": [
+        "types/*"
+      ],
+      "side-models": [
+        "lib/side-models/addon"
+      ],
+      "side-models/*": [
+        "lib/side-models/addon/*"
+      ],
+      "side-models/test-support": [
+        "lib/side-models/addon-test-support"
+      ],
+      "side-models/test-support/*": [
+        "lib/side-models/addon-test-support/*"
+      ]
+    }
+  },
+  "include": [
+    "app/**/*",
+    "tests/**/*",
+    "types/**/*",
+    "lib/models/**/*",
+    "lib/side-models"
+  ]
+}
