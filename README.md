@@ -1,3 +1,9 @@
+# Reproduction
+
+`yarn`
+
+run `ember test` > 5 times, see sometimes failing tests
+
 # ts-app
 
 This README outlines the details of collaborating on this Ember application.
